@@ -1,26 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  color: black;
+  color: #222;
+  margin: 20px;
 }
 
 nav {
   float: right;
 }
 
+ul {
+}
+
+li {
+  display: inline;
+  margin: 0 6px;
+ 
+}
+
 a {
-  color: black;
+  display: inline-block;
+  color: #757575;
   text-decoration: none;
-  padding: 6px;
+}
+
+section {
+  clear: both;
+
+}
+
+img {
+  padding-top: 120px;
+  height: 135px;
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  margin: 20px auto;
+  width: 580px;
+  height: 40px;
+  border: 1px solid #bbb;
+  color: #999;
 }
 
 .apps_button {
-  float: right;
-  width: 30px;
-  height: 30px;
-  margin: 0;
-  background-size: 94px 2541px;
-  background-position: -35px -311px;
-  background-image: url(https://ssl.gstatic.com/gb/images/v1_76783e20.png);
+  position: relative;
+  background-color: white;
+  top: 5px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../apps_icon.png");
+}
 
+.sign_in_button {
+  color: white;
+  background-color: #4285f4;
+  padding: 8px 15px;
+  border-radius: 3px;
+  border-style: none;
+}
 
+.center button {
+  color: #757575;
+  background-color: #eee;
+  border: none;
+  margin: 0 10px;
+  padding: 8px 15px;
 
-  }
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
