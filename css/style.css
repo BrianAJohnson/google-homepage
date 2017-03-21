@@ -4,11 +4,8 @@
 }
 body {
   color: #222;
-  margin: 20px;
-}
-
-nav {
-  float: right;
+  width: 100%;
+  height: 100%;
 }
 
 ul {
@@ -28,7 +25,6 @@ a {
 
 section {
   clear: both;
-
 }
 
 img {
@@ -45,6 +41,19 @@ input {
   height: 40px;
   border: 1px solid #bbb;
   color: #999;
+}
+
+footer {
+  font-family: Arial;
+  font-weight: normal;
+  background-color: #eee;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.top_nav {
+  float: right;
 }
 
 .apps_button {
@@ -76,5 +85,17 @@ input {
 .center {
   text-align: center;
   margin: 0 auto;
+}
+
+.right_footer {
+
+  padding: 10px 20px;
+  float: right;
+}
+
+.left_footer {
+
+  padding: 10px 20px;
+  float: left;
 }
 
