@@ -3,8 +3,22 @@
 <head>
     <title>Google Home Page</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".center button").mouseenter(function(){
+          $(this).css('border', 'solid 1px');
+        });
+        $(".center button").mouseleave(function(){
+          $(this).css('border-color', 'rgba(10,10,10,0)');
+        });
+      });
+
+    </script>
 </head>
 <body>
+
+<!-- Top NAvigation -->
   <nav class="top_nav">
     <ul>
       <li>
@@ -21,6 +35,8 @@
       </li>
     </ul>
   </nav>
+
+  <!-- Middle Section (Image and Input field) -->
   <section>
     <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" id="google_image"/>
     <form action="#" method="get">
@@ -28,12 +44,15 @@
     </form>
   </section>
 
+  <!-- Middle Button section-->
   <section>
     <div class="center">
       <button>Google Search</button>
       <button>I'm Feeling Lucky</button>
     </div>
   </section>
+
+  <!-- Footer section (Left and Right) -->
   <footer>
     <nav class="left_footer">
       <ul>
